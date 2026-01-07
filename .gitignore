@@ -1,0 +1,179 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.idea/
+.vscode/
+.kiro/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.fleet/
+.metals/
+.bsp/
+
+# Backend - Java/Spring Boot
+backend/target/
+backend/build/
+backend/bin/
+backend/.gradle/
+backend/out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.bak
+
+# Keep Gradle wrapper
+!backend/gradle/
+!backend/gradlew
+!backend/gradlew.bat
+
+# Backend - Sensitive Configuration
+backend/src/main/resources/application-prod.properties
+backend/src/main/resources/application-local.properties
+**/application-secret.properties
+
+# Frontend - Node/React/Vite
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+frontend/.serverless/
+frontend/.fusebox/
+frontend/.dynamodb/
+frontend/.tern-port
+frontend/.turbo/
+frontend/.vercel/
+
+# Environment Variables - CRITICAL: Never commit these!
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.*.local
+**/.env
+**/frontend/.env
+**/backend/.env
+
+# Keep example env files
+!.env.example
+!**/.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql.backup
+
+# Uploads and User Content
+uploads/
+upload/
+public/uploads/
+static/uploads/
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Package Manager Lock Files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Sensitive Information
+secrets/
+credentials/
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Backup Files
+*.backup
+*.bak
+*.old
+
+# Deployment
+.vercel
+.railway
+.render
+
+# OS specific
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
